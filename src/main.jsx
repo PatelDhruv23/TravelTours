@@ -9,6 +9,7 @@ import HomePage from './routes/Home.jsx'
 import TripsPage from './routes/Trips.jsx'
 import AboutPage from './routes/About.jsx'
 import ContactPage from './routes/Contact.jsx'
+import BookingPage from './routes/Booking.jsx'
 import { ThemeProvider } from './theme/ThemeProvider.jsx'
 
 const router = createBrowserRouter([
@@ -20,9 +21,12 @@ const router = createBrowserRouter([
       { path: 'trips', element: <TripsPage /> },
       { path: 'about', element: <AboutPage /> },
       { path: 'contact', element: <ContactPage /> },
+      { path: 'book/:id', element: <BookingPage /> },
     ],
   },
 ])
+
+
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
