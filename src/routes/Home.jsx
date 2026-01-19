@@ -44,7 +44,7 @@ export default function HomePage() {
                 src: t.carouselImage, 
                 alt: t.title,
               }))}
-  intervalMs={3500}
+  intervalMs={4000}
 />
            </div>
         </div>
