@@ -46,7 +46,7 @@ export default function TripCard({ trip }) {
                   className="text-sm inline-flex items-center rounded-full px-3 py-2 hover:opacity-90 transition"
                   style={{
                     backgroundColor: "var(--color-primary)",
-                    color: "white",
+                    color: "black",
                   }}
                 >
                   Book Now
